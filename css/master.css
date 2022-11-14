@@ -1,0 +1,56 @@
+.c1 ul li{
+    list-style-type:none;
+    margin: 20px;;
+    padding: 20px;
+    display: inline;
+    color: aliceblue;
+    vertical-align: middle; 
+    font-style: inherit; 
+}
+
+   .c1 ul li :hover{
+    background-color: brown;
+}
+.c1{
+    background-color: rgb(66, 56, 56);
+    padding: 0;    
+    margin: 0; 
+    overflow: hidden; 
+    height: 50px;
+}
+ .c1 ul li  a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: aliceblue;  
+    vertical-align: middle; 
+  
+}
+ .c1 ul li a:hover{
+color:yellowgreen;
+text-decoration: line-through;
+background-color: brown;
+}
+.logo{
+    display:block;
+    float:right;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    box-sizing: border-box;  
+    border-image-width: auto; 
+    width: fit-content; 
+    height: 50px; 
+    cursor: pointer;
+}
+.logo:hover{
+    border: 5px solid brown;
+}
+.c1 ul :hover{
+    background-color: brown;
+}
+.p1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    }
+   

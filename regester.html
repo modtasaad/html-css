@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <link rel="stylesheet" href="./css/bb.css">
+</head>
+<body>
+     
+    <header  class="c1">
+        
+     
+        <a href="https://www.iti.gov.eg/iti/home"  title="GO TO ITI"  ><img src="./imges/screen1.png" alt=""  class="logo" ></a>
+         <ul>
+             <li  class="c2"><a href="./index.html" title="go to index" >Home</a></li>
+             <li><a href="dom.html">Road-map</a></li>
+             <li><a href="#">Rgstation Form</a></li>
+             <li class="c2"><a href="mailto:modtasaad2000@gmail.com" title="mail contact" >contcact us</a></li>
+         </header>
+         <table   >
+            <!-- <caption >Regester-Creat Account </caption> -->
+        
+                <form>
+                    <tr id="hed"  class="you" >
+                        <th colspan="2">Regester-Creat Account</th>
+                    </tr>
+                    <tr>
+                        <td class="you">
+                            <label for="name">
+                                Name
+                            </label>
+                        </td>
+                        <td><input type="text" id="name" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  class="you">
+                            <label for="em">
+                                Email
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email"required id="em" name="em" >
+                        </td>
+                    </tr>
+                    <tr>
+                    <td class="you" ><label for="phone"  >
+                        Phone
+                    </label></td>
+                    <td >
+                        <input type="tel" id="1" class="c" placeholder="Country Code"  style="width: 20%;"  maxlength="2" minlength="2">  
+                        <input type="tel" id="2" placeholder="city code" style="width:10% ;"  maxlength="2" minlength="2">
+                        <input type="text" id="3"  placeholder="Phone numper" style="width:60%"  maxlength="11" minlength="11" >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="you" >
+                        <label for="mop">Mopile Phone</label>
+                    </td>
+                    <td><input type="tel" maxlength="11"required name="mop"  id="mop"  minlength="11" ></td>
+                </tr>
+                <tr>
+                    <td class="you" >
+                      <label for="postel" >  your Postel Address</label>
+                    </td>
+                    <td>
+                        <textarea name="postel" id="postel" cols="30" rows="5"  required ></textarea>
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="you" >
+                    <label for="country">Country</label>
+                    </td>  
+                    <td><select name="country" id="country"  required>
+                        <optgroup>
+                            <option value="se " disabled  selected>----SELECT----</option>
+                            <option value="eg">egypt</option>
+                            <option value="ar">Amarites</option>
+                            <option value="lo">London</option>
+                        </optgroup>
+                    </select>
+                </td>
+                </tr> 
+                <tr>
+                    <td class="you" >
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" name="pass"  required  >
+                    </td>
+                </tr>
+                <tr>
+                    <td class="you" >
+                        <label for="pass2" >Conferm Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="paas2" required   id="pass2" >
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"   id="mo">  <input type="checkbox" name="checkd"   required> <label for="checkd">I accespt the <a href="#">Termes of Use</a></label>
+                </tr>
+                <tr>
+                    <td colspan="2"  id="mo"  class="you">
+                        <input type="submit"  value="conteanue >>">
+                        <input type="reset"  value="Reaste" >
+                    </td>
+                </tr>
+         </table>
+         <hr>
+         <footer>
+            <p style="text-align:center ;color:blue"> Copyright 2022 by Mostafa Saad &copy;.All Right Reserved.</p>
+         </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+ .rsr{
+   position: relative;
+ }
+ table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(168, 34, 34, 0.973);
+    width: 46%;
+    border-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  table td{
+    padding: 15px;
+    background-color: #eee;
+    font-size: smaller; 
+    background-image: url() 
+    
+  } 
+  /* table caption{
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color:crimson;
+    padding: 10px; 
+    margin: 5px; 
+    border: 1px solid rgba(168, 34, 34, 0.973); 
+    cursor: pointer;
+    /* width: 100%; */
+    /* border-radius: 5px;
+  } 
+  table caption:hover{
+    border: 5px solid rgba(168, 34, 34, 0.973);  
+  } */ 
+  /* .et{
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 1em;
+      color: black; 
+      align-items: center;
+  }
+  .c{
+      border: 0;
+      border-bottom: 3px solid rgb(61, 59, 59);
+      outline: 0;
+  } */
+  body{
+    background-color: rgba(112, 93, 93, 0.63);
+    /* overflow: hidden; */
+  }
+
+  /* footer{
+    background-color: white;
+    background-repeat: repeat;
+    width: 100%;
+  } */
+  #mo{
+    vertical-align: middle;
+text-align: center;
+  }
+  .you{
+    background-color: rgba(100, 91, 91, 0.322);
+  }
+  #hed{
+    /* font-family: 'Courier New', Courier, monospace; */
+    color:black;
+    padding: 10px; 
+    margin: 5px; 
+    text-align: left;
+  }
